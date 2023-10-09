@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+main {
+    display: flex;
+    background-color: #F3F2EC;
+    width: 100%;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+  }
+     .glass{
+       background-color: #FCFCFA;
+       min-height: 80vh;
+       width: 90%;
+       border-radius: 3rem;
+     }
+
+     .container {
+        position: relative;
+        overflow: hidden;
+        min-height: 80vh;        
+        border-radius: 3rem;
+    }
+    
+    .form-container {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        transition: all 0.6s ease-in-out;
+    }
+
+form {
+    background-color: #ffb3e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    }
+    
+    .sign-in-container {
+        left: 50%;
+        width: 50%;
+        z-index: 2;
+    }
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+
+/* box nameproject */
+.name-container {
+	position: absolute;
+	top: 0;
+	left:  0px;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	transition: transform 0.6s ease-in-out;
+	z-index: 100;
+}
+
+ .name {
+	background: #a3ffda;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #000000;
+	position: relative;
+	/* left: -100px; */
+    right: auto;
+	height: 100%;
+	width: 200%;
+  	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+} 
+
+ .name-box {
+    padding: 90px;
+    top: 40px;
+ }
+

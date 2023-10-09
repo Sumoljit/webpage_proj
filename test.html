@@ -1,0 +1,270 @@
+
+<!doctype html>
+    <html data-wf-page="6378beb46a668aa5919b2299" data-wf-site="62cbc029c50496d99ecadfdd">
+<head>
+
+    <link href="https://sandstudio.co/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="https://sandstudio.co/css/sand-studio-website.webflow.css" rel="stylesheet" type="text/css">
+
+</head>
+
+    <style>
+        body {
+    padding-bottom: 0px;
+    cursor: auto;
+  }
+
+  .banner-img {
+    left: 66%;
+    top: -5%;
+    width: 56px;
+    height: 56px;
+  }
+
+    </style>
+
+<body class="body">
+
+    
+    <style> 
+
+        .cursor-wrapper {
+            pointer-events: none;
+            
+        }
+
+        .form-error-text {
+            visibility: hidden;
+        }
+
+        .matter-wrap {
+            display: none;
+        }
+
+       
+        .cursor-wrapper {
+    /* position: fixed; */
+     left: 0%;
+     top: 0%;
+     right: 0%;
+     bottom: 0%;
+     z-index: 9999;
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+}
+
+.cursor {
+  position: relative;
+  z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+    </style>
+
+
+
+
+<div class="cursor-wrapper">
+    <div data-w-id="ec78a5a0-b68e-2bf5-4445-01200308a0db" class="cursor"><img src="https://sandstudio.co/images/cursor.svg" loading="lazy" alt="" class="cursor-mouse">
+        <div data-w-id="ec78a5a0-b68e-2bf5-4445-01200308a0dd" class="running-text-wrapper">
+            <div class="typed-text"></div>
+        </div>
+        <div class="cursor-eye-wrapper"><img src="https://sandstudio.co/images/eye.svg" loading="lazy" width="15" alt="" class="cursor-eye"></div>
+    </div>
+</div>
+
+
+    <div class="help wf-section">
+        <div class="container w-container">
+            <div data-w-id="d2ab9c7d-2d5d-f101-8efa-29867fc83280" style="opacity: 0" class="help-wrapper">
+                <div class="divw-50-100 help-left desktop">
+                    <div class="flex-hor-cen-st">
+                        <div class="ab-62 lh-60 c-212">Tell us</div>
+                        <div data-w-id="530d2810-fef5-a55e-ab0c-fc4ebb4c54be" class="circle-64 help-loop">
+                            <img src="https://sandstudio.co/images/help-mobile.svg" loading="lazy" alt="" class="help-icon1"/><img
+                                src="https://sandstudio.co/images/help-tablet.svg" loading="lazy" alt="" class="help-icon2"/><img
+                                src="https://sandstudio.co/images/help-laptop.svg" loading="lazy" alt="" class="help-icon3"/><img
+                                src="https://sandstudio.co/images/help-desktop.svg" loading="lazy" alt="" class="help-icon4"/>
+                        </div>
+                    </div>
+                    <div class="ab-62 lh-60 c-212">about your</div>
+                    <div class="ab-62 lh-60 c-212 mb-10">project!</div>
+                    <br><br><br><br><br><br><br><br>
+
+                    <div class="ab-20 c-4e4 mb-10 desktop">or drop an email at</div>
+                    <div data-w-id="68a8fcad-854c-2910-4d17-bf83329e96cb" class="email-wrapper">
+                        <a href="/cdn-cgi/l/email-protection#3a495b545e5f5f7a495b545e494e4f5e535514595505494f58505f594e07695b545e1f080a694e4f5e53551f080a73544b4f534843" class="ar-24 c-b1a link">✉️
+                             <span class="__cf_email__" data-cfemail="1a697b747e7f7f5a697b747e696e6f7e7375347975">[email&#160;protected]</span></a><img src="https://sandstudio.co/images/gold-arrow.svg" loading="lazy" alt=""
+                                                          class="ml-10 mb-5"/>
+                        <div class="underline-email"></div>
+                    </div>
+                </div>
+                <div class="divw-50-100 help-left mobile">
+                    <div class="heading-h1 mb--5">Tell us about</div>
+                    <div class="flex-hor-cen-st mb-15">
+                        <div class="heading-h1">your project!</div>
+                        <div data-w-id="4f890ca8-c0ca-3aa5-f9ea-c4e382e2b10e" class="circle-64 help-loop">
+                            <img src="https://sandstudio.co/images/help-mobile.svg" loading="lazy" alt="" class="help-icon1"/><img
+                                src="https://sandstudio.co/images/help-tablet.svg" loading="lazy" alt="" class="help-icon2"/><img
+                                src="https://sandstudio.co/images/help-laptop.svg" loading="lazy" alt="" class="help-icon3"/><img
+                                src="https://sandstudio.co/images/help-desktop.svg" loading="lazy" alt="" class="help-icon4"/>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="divw-50-100">
+                    <div class="w-form">
+                        <form id="help-form" name="email-form" data-name="Email Form" method="POST">
+
+                            <input type="text" class="form-text w-input" maxlength="256" name="name" data-name="Name"
+                                   placeholder="Name*" id="name-field"/>
+                            <div id="errortextname" class="form-error-text">
+                                Please enter your name
+                            </div>
+                            <input type="text" class="form-text w-input" maxlength="256" name="email" data-name="Email"
+                                   placeholder="Email*" id="email-field"/>
+                            <div id="errortextemail" class="form-error-text">
+                                Please enter an email. So, we can reply your email.
+                            </div>
+                            
+                            <div id="cf-turnstile" style="text-align: center !important;"></div>
+                            <input type="submit" onclick="sendEmail()" value="Send message"
+                                   style="margin-top: 30px;"
+                                   data-wait="You’ll hear from us!" id="send" class="click-button send w-button"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line-pa-n help-1"></div>
+    </div>
+</div>
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62cbc029c50496d99ecadfdd" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://sandstudio.co/js/webflow.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+        var cf_token = null
+        window.onloadTurnstileCallback = function () {
+            turnstile.render('#cf-turnstile',
+                {
+                    sitekey: '0x4AAAAAAACNo1QUz6sc2eD9',
+                    theme: 'light',
+                    callback: function (token) {
+                        cf_token = token;
+                    },
+                }
+            );
+        };
+
+        function sendEmail() {
+            if (cf_token == null) {
+                alert('Please procees bot verification before submit the form.')
+            }
+            var name = $("#name-field");
+            var email = $("#email-field");
+            var detail = $("#text-field");
+
+            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(detail)) {
+                $.ajax({
+                    url: "https://sandstudio.co/api/general/contact-lead",
+                    method: "POST",
+                    dataType: "json",
+                    data: {
+                        name: name.val(),
+                        email: email.val(),
+                        message: detail.val(),
+                        'cf-turnstile-response': cf_token
+                    },
+                    success: function (response) {
+                        $("#help-form")[0].reset();
+                        setTimeout(function () {
+                            document.getElementById("send").value = "🎉 Message sent!";
+                        }, 0);
+                        setTimeout(function () {
+                            document.getElementById("send").value = "You’ll hear from us!";
+                        }, 2000);
+                        setTimeout(function () {
+                            document.getElementById("send").value = "Send message";
+                        }, 4000);
+                    },
+                });
+            }
+        }
+
+        function isNotEmpty(caller) {
+            if (caller.val() == "") {
+                return false;
+            } else return true;
+        }
+    </script>
+
+    <script>
+        $(function () {
+            $(".draggable").draggable({});
+        });
+        var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+        const sendbutton = document.getElementById("send");
+        const fieldname = document.getElementById("name-field");
+        const fieldemail = document.getElementById("email-field");
+        const fieldtext = document.getElementById("text-field");
+        const errorname = document.getElementById("errortextname");
+        const erroremail = document.getElementById("errortextemail");
+        const erroremailformat = document.getElementById("errortextemailformat");
+        const errortext = document.getElementById("errortexttext");
+        sendbutton.addEventListener("click", (event) => {
+            if (fieldname.value.length == 0) {
+                fieldname.style.borderBottom = "1px solid #EA3F3F";
+                errorname.style.visibility = "visible";
+                event.preventDefault();
+            }
+            if (fieldemail.value.length == 0) {
+                fieldemail.style.borderBottom = "1px solid #EA3F3F";
+                erroremail.style.visibility = "visible";
+                erroremail.innerHTML = "Please enter an email. So, we can reply your email."
+                event.preventDefault();
+            }
+            if (fieldemail.value.length > 0 && fieldemail.value.match(validRegex) == null) {
+                fieldemail.style.borderBottom = "1px solid #EA3F3F";
+                erroremail.style.visibility = "visible";
+                erroremail.innerHTML = "Email format is invalid. Please recheck and try to submit form again.";
+                event.preventDefault();
+            }
+        });
+        fieldname.addEventListener("click", () => {
+            fieldname.style.borderBottom = "1px solid #6D6D6D";
+            errorname.style.visibility = "hidden";
+        });
+        fieldemail.addEventListener("click", () => {
+            fieldemail.style.borderBottom = "1px solid #6D6D6D";
+            erroremail.style.visibility = "hidden";
+        });
+    </script>
+
+
+</body>
+</html>
